@@ -1,0 +1,16 @@
+feature,importance,std
+lead_time,0.2736,0.0031
+no_of_special_requests,0.1367,0.0024
+market_segment_type,0.0893,0.004
+avg_price_per_room,0.0843,0.0025
+arrival_month,0.0426,0.0005
+no_of_weekend_nights,0.0143,0.0012
+no_of_week_nights,0.0104,0.0007
+no_of_adults,0.0089,0.0007
+required_car_parking_space,0.0058,0.0011
+type_of_meal_plan,0.0043,0.0004
+room_type_reserved,0.003,0.0003
+no_of_children,0.0005,0.0002
+repeated_guest,0.0003,0.0
+no_of_previous_bookings_not_canceled,0.0002,0.0
+no_of_previous_cancellations,0.0001,0.0

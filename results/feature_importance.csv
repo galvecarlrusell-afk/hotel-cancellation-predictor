@@ -1,0 +1,13 @@
+feature,importance
+lead_time,0.3664549674101402
+no_of_special_requests,0.15469376884121042
+avg_price_per_room,0.14695093856807964
+arrival_month,0.08721955116460232
+market_segment_type_Online,0.04508831438898785
+no_of_week_nights,0.041944148503883755
+no_of_weekend_nights,0.03417411997955249
+market_segment_type_Offline,0.025868656070921137
+no_of_adults,0.020303155668644074
+market_segment_type_Corporate,0.01017227137373704
+required_car_parking_space,0.009993624361778234
+type_of_meal_plan_Meal Plan 2,0.009812462194807773

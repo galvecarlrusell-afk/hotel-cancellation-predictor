@@ -1,0 +1,6 @@
+Model,Accuracy,Precision,Recall,F1,ROC-AUC,PR-AUC
+Baseline (always Not Canceled),0.6717,0.0,0.0,0.0,0.5,0.3283
+Logistic Regression,0.7894,0.6472,0.788,0.7107,0.8719,0.7745
+KNN,0.8551,0.8047,0.7378,0.7698,0.9183,0.8517
+Random Forest,0.8891,0.82,0.8484,0.834,0.9535,0.925
+Gradient Boosting,0.8799,0.7915,0.8611,0.8248,0.9507,0.9177

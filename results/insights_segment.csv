@@ -1,0 +1,6 @@
+group,bookings,cancel_rate
+Aviation,125,0.296
+Complementary,374,0.0
+Corporate,2017,0.1091
+Offline,10527,0.2995
+Online,23015,0.3662

@@ -1,0 +1,25 @@
+{
+  "Logistic Regression": {
+    "C": 0.12733267608983528,
+    "tuning_cv_f1": 0.6903
+  },
+  "KNN": {
+    "n_neighbors": 40,
+    "weights": "distance",
+    "tuning_cv_f1": 0.7669
+  },
+  "Random Forest": {
+    "max_depth": null,
+    "max_features": 0.5,
+    "min_samples_leaf": 1,
+    "n_estimators": 148,
+    "tuning_cv_f1": 0.8115
+  },
+  "Gradient Boosting": {
+    "l2_regularization": 0.3745401188473625,
+    "learning_rate": 0.2678154091306088,
+    "max_leaf_nodes": 57,
+    "min_samples_leaf": 17,
+    "tuning_cv_f1": 0.8086
+  }
+}

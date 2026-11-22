@@ -1,0 +1,104 @@
+{
+  "best_model": "Random Forest",
+  "models": [
+    {
+      "label": "Logistic Regression",
+      "file": "models/logistic_regression.joblib",
+      "slug": "logistic_regression"
+    },
+    {
+      "label": "KNN",
+      "file": "models/knn.joblib",
+      "slug": "knn"
+    },
+    {
+      "label": "Random Forest",
+      "file": "models/random_forest.joblib",
+      "slug": "random_forest"
+    },
+    {
+      "label": "Gradient Boosting",
+      "file": "models/gradient_boosting.joblib",
+      "slug": "gradient_boosting"
+    }
+  ],
+  "columns": [
+    "no_of_adults",
+    "no_of_children",
+    "no_of_weekend_nights",
+    "no_of_week_nights",
+    "type_of_meal_plan",
+    "required_car_parking_space",
+    "room_type_reserved",
+    "lead_time",
+    "arrival_month",
+    "market_segment_type",
+    "repeated_guest",
+    "no_of_previous_cancellations",
+    "no_of_previous_bookings_not_canceled",
+    "avg_price_per_room",
+    "no_of_special_requests"
+  ],
+  "numeric": [
+    "no_of_adults",
+    "no_of_children",
+    "no_of_weekend_nights",
+    "no_of_week_nights",
+    "required_car_parking_space",
+    "lead_time",
+    "arrival_month",
+    "repeated_guest",
+    "no_of_previous_cancellations",
+    "no_of_previous_bookings_not_canceled",
+    "avg_price_per_room",
+    "no_of_special_requests"
+  ],
+  "categorical": [
+    "type_of_meal_plan",
+    "room_type_reserved",
+    "market_segment_type"
+  ],
+  "categories": {
+    "type_of_meal_plan": [
+      "Meal Plan 1",
+      "Meal Plan 2",
+      "Meal Plan 3",
+      "Not Selected"
+    ],
+    "room_type_reserved": [
+      "Room_Type 1",
+      "Room_Type 2",
+      "Room_Type 3",
+      "Room_Type 4",
+      "Room_Type 5",
+      "Room_Type 6",
+      "Room_Type 7"
+    ],
+    "market_segment_type": [
+      "Aviation",
+      "Complementary",
+      "Corporate",
+      "Offline",
+      "Online"
+    ]
+  },
+  "reference": {
+    "no_of_adults": 2.0,
+    "no_of_children": 0.0,
+    "no_of_weekend_nights": 1.0,
+    "no_of_week_nights": 2.0,
+    "required_car_parking_space": 0.0,
+    "lead_time": 57.0,
+    "arrival_month": 8.0,
+    "repeated_guest": 0.0,
+    "no_of_previous_cancellations": 0.0,
+    "no_of_previous_bookings_not_canceled": 0.0,
+    "avg_price_per_room": 99.88,
+    "no_of_special_requests": 0.0,
+    "type_of_meal_plan": "Meal Plan 1",
+    "room_type_reserved": "Room_Type 1",
+    "market_segment_type": "Online"
+  },
+  "rows_used": 36058,
+  "canceled_share": 0.3283
+}
